@@ -29,6 +29,12 @@ describe('FilesizeWatcher', function () {
                 done();
             });
 
+            // Multiple callbacks can be added to the same event!
+            watcher.on('grew', function(gain){
+               console.log("IT GREWWWWWWWWWW!");
+                done();
+            });
+
             exec('echo "test" > ' + path, function () {
             });
 
