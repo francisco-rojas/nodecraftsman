@@ -1,5 +1,33 @@
 {
-    "devDependencies": {
-        "jasmine-node": "^1.14.5"
-    }
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.79.0",
+    "sqlite3": "^3.1.8"
+  },
+  "name": "sample_app",
+  "description": "Code from the Node Craftman book (http://www.nodebeginner.org/)",
+  "version": "0.0.1",
+  "main": "src/backend/index.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "bower": "^1.8.0",
+    "db-migrate": "^0.9.26",
+    "mysql": "^2.12.0",
+    "node-dbi": "^0.7.1",
+    "percolator": "^1.5.0",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisco-rojas/nodecraftsman.git"
+  },
+  "author": "francisco-rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisco-rojas/nodecraftsman/issues"
+  },
+  "homepage": "https://github.com/francisco-rojas/nodecraftsman#readme"
 }
