@@ -1,0 +1,17 @@
+{
+  "test": {
+    "driver": "sqlite3",
+    "filename": "/var/tmp/sample_app.test.sqlite"
+  },
+  "dev": {
+    "driver": "sqlite3",
+    "filename": "/var/tmp/sample_app.dev.sqlite"
+  },
+  "production": {
+    "driver": "mysql",
+    "host": "localhost",
+    "user": "",
+    "password": "",
+    "database": "sample_app"
+  }
+}
